@@ -1,0 +1,15 @@
+{
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "parameter_size": "7B",
+  "framework": "Custom Python multi-agent pipeline (OpenAI-compatible SDK client), pandas for data joins, pydantic-style manual validation in the Verifier Agent",
+  "runtime": "FPT AI Marketplace (https://mkp-api.fptcloud.com), OpenAI-compatible chat completions API",
+  "agents": [
+    "Customer Agent",
+    "Order & Product Agent",
+    "Payment Agent",
+    "Delivery Agent",
+    "Policy Agent",
+    "Coordinator Agent",
+    "Verifier Agent"
+  ]
+}
