@@ -7,7 +7,7 @@
       "multiple_categories"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.9
   },
   "affected_entities": {
     "order_ids": [
@@ -30,12 +30,12 @@
   },
   "product_context": {
     "product_ids": [
-      "db7e6804f1a8206a7e51c9a741a09d9e",
-      "fe4dece0c663ba4f1f9f2d04d3b93a97"
+      "fe4dece0c663ba4f1f9f2d04d3b93a97",
+      "db7e6804f1a8206a7e51c9a741a09d9e"
     ],
     "category_names": [
-      "toys",
-      "cool_stuff"
+      "cool_stuff",
+      "brinquedos"
     ]
   },
   "delivery_analysis": {
@@ -88,7 +88,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 364.88
+    "recommended_refund_brl": 75.98
   },
   "resolution_actions": [
     "refund_freight",

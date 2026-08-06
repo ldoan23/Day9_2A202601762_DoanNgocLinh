@@ -7,7 +7,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.92
   },
   "affected_entities": {
     "order_ids": [
@@ -36,7 +36,7 @@
       "9388e84da6051e85eb86fc653c3aa64f"
     ],
     "category_names": [
-      "bed_bath_table"
+      "cama_mesa_banho"
     ]
   },
   "delivery_analysis": {
@@ -74,6 +74,10 @@
       {
         "cause_code": "SELLER_HANDOFF_AFTER_LIMIT",
         "rank": 1
+      },
+      {
+        "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE",
+        "rank": 2
       }
     ],
     "responsible_parties": [
@@ -94,11 +98,12 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 57.6
+    "recommended_refund_brl": 17.6
   },
   "resolution_actions": [
     "refund_freight",
     "review_seller_handoff",
-    "verify_refund_completion"
+    "verify_refund_completion",
+    "verify_payment_allocation"
   ]
 }

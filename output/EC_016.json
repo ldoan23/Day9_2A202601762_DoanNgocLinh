@@ -7,7 +7,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.9
   },
   "affected_entities": {
     "order_ids": [
@@ -36,7 +36,7 @@
       "6d1d611877ca6fe8901e27ea00df988b"
     ],
     "category_names": [
-      "toys"
+      "brinquedos"
     ]
   },
   "delivery_analysis": {
@@ -91,7 +91,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 147.15
+    "recommended_refund_brl": 18.15
   },
   "resolution_actions": [
     "refund_freight",

@@ -7,7 +7,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.92
   },
   "affected_entities": {
     "order_ids": [
@@ -35,7 +35,7 @@
       "f114a4c35d2bb55ae4ad3c35975fc5e5"
     ],
     "category_names": [
-      "sports_leisure"
+      "esporte_lazer"
     ]
   },
   "delivery_analysis": {
@@ -73,6 +73,10 @@
       {
         "cause_code": "SELLER_HANDOFF_AFTER_LIMIT",
         "rank": 1
+      },
+      {
+        "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE",
+        "rank": 2
       }
     ],
     "responsible_parties": [
@@ -92,11 +96,12 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 212.27
+    "recommended_refund_brl": 18.27
   },
   "resolution_actions": [
     "refund_freight",
     "review_seller_handoff",
-    "verify_refund_completion"
+    "verify_refund_completion",
+    "verify_payment_allocation"
   ]
 }

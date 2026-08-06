@@ -6,7 +6,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 0.7
+    "confidence": 0.95
   },
   "affected_entities": {
     "order_ids": [
@@ -33,11 +33,11 @@
       "6bd248f93425ceeb625a8a97e2404112"
     ],
     "category_names": [
-      "stationery"
+      "papelaria"
     ]
   },
   "delivery_analysis": {
-    "delivered_at": null,
+    "delivered_at": NaN,
     "estimated_delivery_at": "2018-03-15 00:00:00",
     "carrier_handoff_at": "2018-02-20 18:58:43",
     "delivery_variance_hours": null,

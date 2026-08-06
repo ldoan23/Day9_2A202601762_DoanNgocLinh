@@ -7,7 +7,7 @@
       "split_payment"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.92
   },
   "affected_entities": {
     "order_ids": [
@@ -34,7 +34,7 @@
       "c857b96593773e940454e76efa8eabb3"
     ],
     "category_names": [
-      "furniture_decor"
+      "moveis_decoracao"
     ]
   },
   "delivery_analysis": {
@@ -72,6 +72,10 @@
       {
         "cause_code": "SELLER_HANDOFF_AFTER_LIMIT",
         "rank": 1
+      },
+      {
+        "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE",
+        "rank": 2
       }
     ],
     "responsible_parties": [
@@ -92,11 +96,12 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 145.32
+    "recommended_refund_brl": 25.52
   },
   "resolution_actions": [
     "refund_freight",
     "review_seller_handoff",
-    "verify_refund_completion"
+    "verify_refund_completion",
+    "verify_payment_allocation"
   ]
 }

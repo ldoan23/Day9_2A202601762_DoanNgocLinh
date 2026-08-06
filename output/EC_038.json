@@ -1,13 +1,13 @@
 {
   "case_id": "EC_038",
   "case_assessment": {
-    "primary_issue": "valid_split_payment",
+    "primary_issue": "unsupported_late_claim",
     "secondary_issues": [
       "multi_item_order",
       "repeat_customer"
     ],
     "case_status": "no_action",
-    "confidence": 1.0
+    "confidence": 0.88
   },
   "affected_entities": {
     "order_ids": [
@@ -35,7 +35,7 @@
       "cf8c83ef74f69705d1bec196473b1b45"
     ],
     "category_names": [
-      "bed_bath_table"
+      "cama_mesa_banho"
     ]
   },
   "delivery_analysis": {
@@ -68,7 +68,7 @@
   "root_cause_analysis": {
     "ranked_causes": [
       {
-        "cause_code": "MULTIPLE_PAYMENTS_RECONCILED",
+        "cause_code": "DELIVERY_WITHIN_ESTIMATE",
         "rank": 1
       }
     ],
@@ -79,13 +79,13 @@
     "item:efcd8852328a37fca811747c09c6fb69:1",
     "item:efcd8852328a37fca811747c09c6fb69:2",
     "payment:efcd8852328a37fca811747c09c6fb69:1",
-    "policy:MULTIPLE_PAYMENTS_RECONCILED"
+    "policy:DELIVERY_WITHIN_ESTIMATE"
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 0.0
+    "recommended_refund_brl": 0
   },
   "resolution_actions": [
-    "explain_valid_split_payment"
+    "reject_late_refund"
   ]
 }

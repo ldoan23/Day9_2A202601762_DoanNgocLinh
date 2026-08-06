@@ -7,7 +7,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.9
   },
   "affected_entities": {
     "order_ids": [
@@ -36,7 +36,7 @@
       "727a46f0b58a9ef165af9f7ebcfebfa9"
     ],
     "category_names": [
-      "sports_leisure"
+      "esporte_lazer"
     ]
   },
   "delivery_analysis": {
@@ -90,7 +90,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 108.84
+    "recommended_refund_brl": 50.37
   },
   "resolution_actions": [
     "refund_freight",

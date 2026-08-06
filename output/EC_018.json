@@ -1,13 +1,13 @@
 {
   "case_id": "EC_018",
   "case_assessment": {
-    "primary_issue": "valid_split_payment",
+    "primary_issue": "unsupported_late_claim",
     "secondary_issues": [
       "multi_item_order",
       "multi_seller_order"
     ],
     "case_status": "no_action",
-    "confidence": 1.0
+    "confidence": 0.88
   },
   "affected_entities": {
     "order_ids": [
@@ -35,7 +35,7 @@
       "9b1954fdd0f9b4ef4ee2d267ac9de4bd"
     ],
     "category_names": [
-      "health_beauty"
+      "beleza_saude"
     ]
   },
   "delivery_analysis": {
@@ -74,7 +74,7 @@
   "root_cause_analysis": {
     "ranked_causes": [
       {
-        "cause_code": "MULTIPLE_PAYMENTS_RECONCILED",
+        "cause_code": "DELIVERY_WITHIN_ESTIMATE",
         "rank": 1
       }
     ],
@@ -85,14 +85,14 @@
     "item:f396e1280028fa9c8c83111abee5f2e9:1",
     "item:f396e1280028fa9c8c83111abee5f2e9:2",
     "payment:f396e1280028fa9c8c83111abee5f2e9:1",
-    "policy:MULTIPLE_PAYMENTS_RECONCILED"
+    "policy:DELIVERY_WITHIN_ESTIMATE"
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 0.0
+    "recommended_refund_brl": 0
   },
   "resolution_actions": [
-    "explain_valid_split_payment",
+    "reject_late_refund",
     "coordinate_multi_seller_case"
   ]
 }

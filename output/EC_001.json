@@ -1,13 +1,13 @@
 {
   "case_id": "EC_001",
   "case_assessment": {
-    "primary_issue": "valid_split_payment",
+    "primary_issue": "unsupported_late_claim",
     "secondary_issues": [
       "multi_item_order",
       "repeat_customer"
     ],
     "case_status": "no_action",
-    "confidence": 1.0
+    "confidence": 0.88
   },
   "affected_entities": {
     "order_ids": [
@@ -32,11 +32,11 @@
   },
   "product_context": {
     "product_ids": [
-      "43b54d1fc56ff394092a3dff6be2d39f",
-      "0a4f9f421af66d2ea061fbb8883419f7"
+      "0a4f9f421af66d2ea061fbb8883419f7",
+      "43b54d1fc56ff394092a3dff6be2d39f"
     ],
     "category_names": [
-      "health_beauty"
+      "beleza_saude"
     ]
   },
   "delivery_analysis": {
@@ -69,7 +69,7 @@
   "root_cause_analysis": {
     "ranked_causes": [
       {
-        "cause_code": "MULTIPLE_PAYMENTS_RECONCILED",
+        "cause_code": "DELIVERY_WITHIN_ESTIMATE",
         "rank": 1
       }
     ],
@@ -80,13 +80,13 @@
     "item:9b75cdaf2d85857ef023980e15d01546:1",
     "item:9b75cdaf2d85857ef023980e15d01546:2",
     "payment:9b75cdaf2d85857ef023980e15d01546:1",
-    "policy:MULTIPLE_PAYMENTS_RECONCILED"
+    "policy:DELIVERY_WITHIN_ESTIMATE"
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 0.0
+    "recommended_refund_brl": 0
   },
   "resolution_actions": [
-    "explain_valid_split_payment"
+    "reject_late_refund"
   ]
 }

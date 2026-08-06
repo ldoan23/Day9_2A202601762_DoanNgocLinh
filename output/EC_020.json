@@ -7,7 +7,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.92
   },
   "affected_entities": {
     "order_ids": [
@@ -36,7 +36,7 @@
       "3eef0cb94ba82de806bb30ab743c7655"
     ],
     "category_names": [
-      "office_furniture"
+      "moveis_escritorio"
     ]
   },
   "delivery_analysis": {
@@ -73,6 +73,10 @@
       {
         "cause_code": "SELLER_HANDOFF_AFTER_LIMIT",
         "rank": 1
+      },
+      {
+        "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE",
+        "rank": 2
       }
     ],
     "responsible_parties": [
@@ -93,7 +97,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 308.61
+    "recommended_refund_brl": 68.64
   },
   "resolution_actions": [
     "refund_freight",

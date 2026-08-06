@@ -7,7 +7,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.92
   },
   "affected_entities": {
     "order_ids": [
@@ -37,7 +37,7 @@
       "ad4b5def91ac7c575dbdf65b5be311f4"
     ],
     "category_names": [
-      "computers_accessories"
+      "informatica_acessorios"
     ]
   },
   "delivery_analysis": {
@@ -74,6 +74,10 @@
       {
         "cause_code": "SELLER_HANDOFF_AFTER_LIMIT",
         "rank": 1
+      },
+      {
+        "cause_code": "CARRIER_DELIVERED_AFTER_ESTIMATE",
+        "rank": 2
       }
     ],
     "responsible_parties": [
@@ -95,7 +99,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 154.32
+    "recommended_refund_brl": 60.4
   },
   "resolution_actions": [
     "refund_freight",

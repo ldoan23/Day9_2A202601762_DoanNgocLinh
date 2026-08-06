@@ -1,0 +1,27 @@
+{
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "parameter_size": "7B",
+  "provider": "FPT AI Marketplace",
+  "framework": "custom A2A message bus (Python stdlib + pandas)",
+  "runtime": {
+    "python": "3.12.10",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "agents": [
+    "CoordinatorAgent",
+    "CustomerAgent",
+    "OrderProductAgent",
+    "PaymentAgent",
+    "DeliveryAgent",
+    "PolicyAgent",
+    "VerifierAgent"
+  ],
+  "run": {
+    "cases": 50,
+    "llm_calls": 480,
+    "degraded_cases": 14,
+    "duration_seconds": 230.1,
+    "started_at": "2026-08-06T02:35:42.468161+00:00",
+    "finished_at": "2026-08-06T02:39:32.589835+00:00"
+  }
+}

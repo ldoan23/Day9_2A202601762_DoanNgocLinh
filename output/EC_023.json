@@ -7,7 +7,7 @@
       "repeat_customer"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.9
   },
   "affected_entities": {
     "order_ids": [
@@ -35,7 +35,7 @@
       "c4baedd846ed09b85f78a781b522f126"
     ],
     "category_names": [
-      "garden_tools"
+      "ferramentas_jardim"
     ]
   },
   "delivery_analysis": {
@@ -88,7 +88,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 280.98
+    "recommended_refund_brl": 101.0
   },
   "resolution_actions": [
     "refund_freight",

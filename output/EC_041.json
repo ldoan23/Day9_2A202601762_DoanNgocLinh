@@ -8,7 +8,7 @@
       "split_payment"
     ],
     "case_status": "no_action",
-    "confidence": 1.0
+    "confidence": 0.9
   },
   "affected_entities": {
     "order_ids": [
@@ -19,8 +19,8 @@
       "614bc59c7d5e038587336616e3198e33:2"
     ],
     "seller_ids": [
-      "30a2f535bb48308f991d0b9ad4a8c4bb",
-      "7e3f87d16fb353f408d467e74fbd8014"
+      "7e3f87d16fb353f408d467e74fbd8014",
+      "30a2f535bb48308f991d0b9ad4a8c4bb"
     ],
     "payment_ids": [
       "614bc59c7d5e038587336616e3198e33:1",
@@ -37,7 +37,7 @@
       "f9f260f8a0d16df18bcc7248495d779c"
     ],
     "category_names": [
-      "furniture_decor"
+      "moveis_decoracao"
     ]
   },
   "delivery_analysis": {
@@ -93,7 +93,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 0.0
+    "recommended_refund_brl": 0
   },
   "resolution_actions": [
     "explain_valid_split_payment",

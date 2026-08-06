@@ -7,7 +7,7 @@
       "multi_seller_order"
     ],
     "case_status": "action_required",
-    "confidence": 1.0
+    "confidence": 0.9
   },
   "affected_entities": {
     "order_ids": [
@@ -31,11 +31,11 @@
   },
   "product_context": {
     "product_ids": [
-      "c686d4fd1e845efd1b98db8220f0af3b",
-      "5b2b72f58d212a6e4733884ef0ece564"
+      "5b2b72f58d212a6e4733884ef0ece564",
+      "c686d4fd1e845efd1b98db8220f0af3b"
     ],
     "category_names": [
-      "bed_bath_table"
+      "cama_mesa_banho"
     ]
   },
   "delivery_analysis": {
@@ -94,7 +94,7 @@
   ],
   "financial_resolution": {
     "currency": "BRL",
-    "recommended_refund_brl": 465.0
+    "recommended_refund_brl": 32.75
   },
   "resolution_actions": [
     "refund_freight",
