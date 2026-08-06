@@ -1,4 +1,7 @@
 {
+  "cohort": "K4",
+  "repo_starter": "K4-Day9-Multi-Agent-A2A-A6-3-main",
+  "policy_version": "EC_POLICY_V2",
   "model": "Qwen2.5-VL-7B-Instruct",
   "parameter_size": "7B",
   "provider": "FPT AI Marketplace",
